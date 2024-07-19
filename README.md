@@ -1,5 +1,5 @@
 # - PythonClusteringSever -
-*그래프이론을 이용한 경로 클러스터링 서버 for Hiking-Planner*
+*그래프이론을 이용한 경로 추출 서버 for Hiking-Planner*
 
 가장 많이 이용한 등산경로를 추출함.
 
