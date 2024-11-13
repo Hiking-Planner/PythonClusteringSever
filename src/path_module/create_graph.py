@@ -10,7 +10,7 @@ def create_graph(hiking_data):
         for location in record.locations:
             node = (location.latitude, location.longitude)
             G.add_node(node)
-            
+
     # 노드 및 엣지 추가
     for record in hiking_data:
         locations = record.locations
@@ -23,5 +23,4 @@ def create_graph(hiking_data):
             # 존재하지 않는 엣지라면 생성
             else:
                 G.add_edge(start, end, weight=1)
-    print(G)
     return G
